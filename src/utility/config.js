@@ -13,6 +13,7 @@ const secrets = {
   TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN,
   SESSION_EXPIRED_TIME: 30,
   OTP_ATTEMPTS_MAXIMUM_COUNT: 3, //3 times
+  JWT_TOKEN_SECRET: process.env.JWT_TOKEN_SECRET,
 }
 
 module.exports = secrets
